@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fahid.demodtaetime.MainActivity">
+
+    <EditText
+        android:id="@+id/editdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="show date"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/datebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setdate"
+        android:onClick="setdate"/>
+    <EditText
+        android:id="@+id/edittime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="show time"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/timebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setdtime"
+        android:onClick="settime"/>
+
+
+
+</LinearLayout>
